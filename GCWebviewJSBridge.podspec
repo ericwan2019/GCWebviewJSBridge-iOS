@@ -19,11 +19,11 @@ Pod::Spec.new do |s|
 
   s.description      = "JS and ObjC bridge, callback each other"
 
-  s.homepage         = 'https://github.com/<GITHUB_USERNAME>/GCWebviewJSBridge'
+  s.homepage         = 'https://github.com/wheying/GCWebviewJSBridge-iOS'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '万鸿恩' => '1396855545@qq.com' }
-  s.source           = { :git => 'https://github.com/<GITHUB_USERNAME>/GCWebviewJSBridge.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/wheying/GCWebviewJSBridge-iOS.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '7.0'
@@ -34,7 +34,7 @@ Pod::Spec.new do |s|
   #   'GCWebviewJSBridge' => ['GCWebviewJSBridge/Assets/*.png']
   # }
 
-  s.public_header_files = 'Pod/Classes/GCWebviewJSBridge.h'
+  s.public_header_files = 'GCWebviewJSBridge/Classes/*.h'
   s.frameworks = 'UIKit', 'Foundation'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

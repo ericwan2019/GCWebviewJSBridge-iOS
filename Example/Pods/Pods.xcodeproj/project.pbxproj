@@ -1,1294 +1,558 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>archiveVersion</key>
-	<string>1</string>
-	<key>classes</key>
-	<dict/>
-	<key>objectVersion</key>
-	<string>46</string>
-	<key>objects</key>
-	<dict>
-		<key>012CEDCB2AAC18B8E61EFC5883569AA2</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-GCWebviewJSBridge_Example-frameworks.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0B25D42234DDC1947E045B2B25022AEE</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-GCWebviewJSBridge_Example.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0BCA30E01D86AA7FBF18E2A7EC19E753</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>GCWebviewJSBridgeBase.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0CB3CE97AC73B2F4296198CA0C34CF97</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>BF737B6ECD0BE4150975288BF0363D43</string>
-				<string>75A8CF3031EAEAF461122130FBC9E646</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>10DE1947DAC0ED28F6C0A9F9BD75D546</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>ENABLE_NS_ASSERTIONS</key>
-				<string>NO</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>RELEASE=1</string>
-				</array>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.3</string>
-				<key>STRIP_INSTALLED_PRODUCT</key>
-				<string>NO</string>
-				<key>SYMROOT</key>
-				<string>${SRCROOT}/../build</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>112CBA2804BDB9E75D5AD71282C26646</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>6D3B99A55A08784DA4C2B53F11C12B00</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>13D3F9C9B5034EF940B3A5870C3B5526</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D5DDA06DA24C7997D6BD3251BD91CB1C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>16CF1CEEAAFA9DE9FB82B9AF80E83C1D</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>EF6AF3933724B5A80E76C0A833097C30</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>18340F12838DEE43507667CC74401EB1</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>6E7E5AF37923BFA48D6994B9BFC6535F</string>
-				<string>C3B7BDF5CE5CB8F095FE12DA55D9A9BB</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>iOS</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>19474B64FE04B5F11359746FC8B61B66</key>
-		<dict>
-			<key>fileRef</key>
-			<string>C3B7BDF5CE5CB8F095FE12DA55D9A9BB</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>1CA2FADDAE8550142CF909330DC1AACA</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>0CB3CE97AC73B2F4296198CA0C34CF97</string>
-			<key>buildPhases</key>
-			<array>
-				<string>D6F76AF60C2672286CE81C0DE86E8B0B</string>
-				<string>16CF1CEEAAFA9DE9FB82B9AF80E83C1D</string>
-				<string>112CBA2804BDB9E75D5AD71282C26646</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>2B795F492E01C694F9A2CFF1D5B01CA3</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-GCWebviewJSBridge_Example</string>
-			<key>productName</key>
-			<string>Pods-GCWebviewJSBridge_Example</string>
-			<key>productReference</key>
-			<string>B6C1EC7EF3F15C155CCC02689859F766</string>
-			<key>productType</key>
-			<string>com.apple.product-type.framework</string>
-		</dict>
-		<key>1D59481A5F4721AB18658FEF3C4E7BC3</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>Pods-GCWebviewJSBridge_Example.modulemap</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1F2701B50B82A31CF4AC817A8550062C</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>BB520494302A1491F93FA65431C0C047</string>
-				<string>E1B645620013B28FA4DA3CB242A349AE</string>
-				<string>F2815F870142EB3DEFEF10BA1C2F9E15</string>
-				<string>CE14E95294267246A154B5BFD32ED96C</string>
-				<string>4CE6D419B66207ED256B823C925C5DAC</string>
-				<string>A5CC7659031C3BB21E3F4F3E6A5C3DD2</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Support Files</string>
-			<key>path</key>
-			<string>Example/Pods/Target Support Files/GCWebviewJSBridge</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>224997723F85FA1EFDDD3D8FC597DC7C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4CE6D419B66207ED256B823C925C5DAC</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>2B795F492E01C694F9A2CFF1D5B01CA3</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>GCWebviewJSBridge</string>
-			<key>target</key>
-			<string>F0440F603DAFE1FA3BBA9AA72BF6D984</string>
-			<key>targetProxy</key>
-			<string>E6FF7EE6D8A3C8EA5EF8FD454D58A6DF</string>
-		</dict>
-		<key>2D8E8EC45A3A1A1D94AE762CB5028504</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>552D02D5BA751AC2E8790D2811D496CA</string>
-				<string>10DE1947DAC0ED28F6C0A9F9BD75D546</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>2EEB3327CE5A7F684F0ADCA1CADC4935</key>
-		<dict>
-			<key>fileRef</key>
-			<string>77105A551B9DCF33D9FF8AA6C7C00C31</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>2F782000382F8B52BBCAA8BA00E110F3</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>8B4A82782AE8928F9DDFC38F8FA75512</string>
-				<string>1D59481A5F4721AB18658FEF3C4E7BC3</string>
-				<string>4C08FAC54638F88E602749D969BC2527</string>
-				<string>6B27BCC1724970ECE591D01F9991AE04</string>
-				<string>D5DDA06DA24C7997D6BD3251BD91CB1C</string>
-				<string>012CEDCB2AAC18B8E61EFC5883569AA2</string>
-				<string>395C72EAADE97619EC819FC1496368C4</string>
-				<string>7C970CB81B79FB970EE7C5921E3B3D6E</string>
-				<string>0B25D42234DDC1947E045B2B25022AEE</string>
-				<string>4E30528EBDA12AFA722ADCA7D6CD895D</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods-GCWebviewJSBridge_Example</string>
-			<key>path</key>
-			<string>Target Support Files/Pods-GCWebviewJSBridge_Example</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>301A90193797D904C2A3FAFDC4FA659B</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>GCWebviewJSBridge.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>325FD5AEA36A8B1E813F54D8CC57A74A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>59F659C4ABEA476D596C3E975BE30177</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>395C72EAADE97619EC819FC1496368C4</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-GCWebviewJSBridge_Example-resources.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3A33CED86A6DFBC1D9E4BA7959F6A15B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>94B81195F4EBF02A173E8B192B5269D5</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>3DE2FDF7010EC2F29FF4103866C66AF9</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>301A90193797D904C2A3FAFDC4FA659B</string>
-				<string>94B81195F4EBF02A173E8B192B5269D5</string>
-				<string>77105A551B9DCF33D9FF8AA6C7C00C31</string>
-				<string>59F659C4ABEA476D596C3E975BE30177</string>
-				<string>643F024A3C5CD2839E29AE3825F9A689</string>
-				<string>0BCA30E01D86AA7FBF18E2A7EC19E753</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Classes</string>
-			<key>path</key>
-			<string>Classes</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>40EA305503F496AE8E337F8C1962D116</key>
-		<dict>
-			<key>fileRef</key>
-			<string>6E7E5AF37923BFA48D6994B9BFC6535F</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>433CD3331B6C3787F473C941B61FC68F</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>18340F12838DEE43507667CC74401EB1</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4C08FAC54638F88E602749D969BC2527</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>path</key>
-			<string>Pods-GCWebviewJSBridge_Example-acknowledgements.markdown</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4C36B2514BC331619768C52C7CC46A19</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>EFDBA1C359158BF5F227DCA36A3E252B</string>
-				<string>3A33CED86A6DFBC1D9E4BA7959F6A15B</string>
-				<string>325FD5AEA36A8B1E813F54D8CC57A74A</string>
-				<string>87629B4DB43A04D7822FADBF6278E49F</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>4CE6D419B66207ED256B823C925C5DAC</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>GCWebviewJSBridge-umbrella.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4E30528EBDA12AFA722ADCA7D6CD895D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-GCWebviewJSBridge_Example.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4E36299738C7EB078B5107C9AF553C44</key>
-		<dict>
-			<key>fileRef</key>
-			<string>301A90193797D904C2A3FAFDC4FA659B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>552D02D5BA751AC2E8790D2811D496CA</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.3</string>
-				<key>ONLY_ACTIVE_ARCH</key>
-				<string>YES</string>
-				<key>STRIP_INSTALLED_PRODUCT</key>
-				<string>NO</string>
-				<key>SYMROOT</key>
-				<string>${SRCROOT}/../build</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>59F659C4ABEA476D596C3E975BE30177</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>GCWebviewJSBridge_JS.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6091A55DD7E5AE630D310DCFEEF0D4C0</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>69F214B139D8966058E4E6672C6B0419</string>
-				<string>C090D5494089B0EB0B8B1FB3230E4DDB</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>643F024A3C5CD2839E29AE3825F9A689</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>GCWebviewJSBridgeBase.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6586D2B45C986D84ACBEDE1439A0B53A</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>8719B480BD78FF36AD045D588322FBF2</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Development Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>69F214B139D8966058E4E6672C6B0419</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>E1B645620013B28FA4DA3CB242A349AE</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/GCWebviewJSBridge/GCWebviewJSBridge-prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/GCWebviewJSBridge/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.3</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/GCWebviewJSBridge/GCWebviewJSBridge.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>PRODUCT_NAME</key>
-				<string>GCWebviewJSBridge</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>6B27BCC1724970ECE591D01F9991AE04</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Pods-GCWebviewJSBridge_Example-acknowledgements.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6D3B99A55A08784DA4C2B53F11C12B00</key>
-		<dict>
-			<key>fileRef</key>
-			<string>7C970CB81B79FB970EE7C5921E3B3D6E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>6E7E5AF37923BFA48D6994B9BFC6535F</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>Foundation.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>75A8CF3031EAEAF461122130FBC9E646</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>4E30528EBDA12AFA722ADCA7D6CD895D</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/Pods-GCWebviewJSBridge_Example/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.3</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MACH_O_TYPE</key>
-				<string>staticlib</string>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/Pods-GCWebviewJSBridge_Example/Pods-GCWebviewJSBridge_Example.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PODS_ROOT</key>
-				<string>$(SRCROOT)</string>
-				<key>PRODUCT_NAME</key>
-				<string>Pods_GCWebviewJSBridge_Example</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>77105A551B9DCF33D9FF8AA6C7C00C31</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>GCWebviewJSBridge_JS.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7A6E48DE2ACBDA57AE5C1287238A7FDA</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>3DE2FDF7010EC2F29FF4103866C66AF9</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>GCWebviewJSBridge</string>
-			<key>path</key>
-			<string>GCWebviewJSBridge</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7C970CB81B79FB970EE7C5921E3B3D6E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-GCWebviewJSBridge_Example-umbrella.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7DB346D0F39D3F0E887471402A8071AB</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>BA6428E9F66FD5A23C0A2E06ED26CD2F</string>
-				<string>6586D2B45C986D84ACBEDE1439A0B53A</string>
-				<string>433CD3331B6C3787F473C941B61FC68F</string>
-				<string>F8DA3F9F654FF81F2A83F67A83AD84CA</string>
-				<string>FBE763C316D323B7A381BDC1F4319E49</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8719B480BD78FF36AD045D588322FBF2</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>7A6E48DE2ACBDA57AE5C1287238A7FDA</string>
-				<string>1F2701B50B82A31CF4AC817A8550062C</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>GCWebviewJSBridge</string>
-			<key>path</key>
-			<string>../..</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>87629B4DB43A04D7822FADBF6278E49F</key>
-		<dict>
-			<key>fileRef</key>
-			<string>0BCA30E01D86AA7FBF18E2A7EC19E753</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>8B4A82782AE8928F9DDFC38F8FA75512</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>94B81195F4EBF02A173E8B192B5269D5</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>GCWebviewJSBridge.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A5CC7659031C3BB21E3F4F3E6A5C3DD2</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B67763177626356D1596D87315B08567</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>224997723F85FA1EFDDD3D8FC597DC7C</string>
-				<string>4E36299738C7EB078B5107C9AF553C44</string>
-				<string>2EEB3327CE5A7F684F0ADCA1CADC4935</string>
-				<string>E0F0AA9DB074697ADA798CC23A6309D3</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>B6C1EC7EF3F15C155CCC02689859F766</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>Pods_GCWebviewJSBridge_Example.framework</string>
-			<key>path</key>
-			<string>Pods_GCWebviewJSBridge_Example.framework</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>BA6428E9F66FD5A23C0A2E06ED26CD2F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>name</key>
-			<string>Podfile</string>
-			<key>path</key>
-			<string>../Podfile</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-			<key>xcLanguageSpecificationIdentifier</key>
-			<string>xcode.lang.ruby</string>
-		</dict>
-		<key>BB520494302A1491F93FA65431C0C047</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>GCWebviewJSBridge.modulemap</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BF737B6ECD0BE4150975288BF0363D43</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>0B25D42234DDC1947E045B2B25022AEE</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/Pods-GCWebviewJSBridge_Example/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.3</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MACH_O_TYPE</key>
-				<string>staticlib</string>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/Pods-GCWebviewJSBridge_Example/Pods-GCWebviewJSBridge_Example.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PODS_ROOT</key>
-				<string>$(SRCROOT)</string>
-				<key>PRODUCT_NAME</key>
-				<string>Pods_GCWebviewJSBridge_Example</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>C090D5494089B0EB0B8B1FB3230E4DDB</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>E1B645620013B28FA4DA3CB242A349AE</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/GCWebviewJSBridge/GCWebviewJSBridge-prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/GCWebviewJSBridge/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.3</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/GCWebviewJSBridge/GCWebviewJSBridge.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>PRODUCT_NAME</key>
-				<string>GCWebviewJSBridge</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>C34B5ACA45D11ED284629CC60CD3E552</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>40EA305503F496AE8E337F8C1962D116</string>
-				<string>19474B64FE04B5F11359746FC8B61B66</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>C3B7BDF5CE5CB8F095FE12DA55D9A9BB</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>UIKit.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/UIKit.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>CE14E95294267246A154B5BFD32ED96C</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>GCWebviewJSBridge-prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D41D8CD98F00B204E9800998ECF8427E</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>LastSwiftUpdateCheck</key>
-				<string>0700</string>
-				<key>LastUpgradeCheck</key>
-				<string>0700</string>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>2D8E8EC45A3A1A1D94AE762CB5028504</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-			</array>
-			<key>mainGroup</key>
-			<string>7DB346D0F39D3F0E887471402A8071AB</string>
-			<key>productRefGroup</key>
-			<string>F8DA3F9F654FF81F2A83F67A83AD84CA</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectReferences</key>
-			<array/>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>F0440F603DAFE1FA3BBA9AA72BF6D984</string>
-				<string>1CA2FADDAE8550142CF909330DC1AACA</string>
-			</array>
-		</dict>
-		<key>D5DDA06DA24C7997D6BD3251BD91CB1C</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-GCWebviewJSBridge_Example-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D6F76AF60C2672286CE81C0DE86E8B0B</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>13D3F9C9B5034EF940B3A5870C3B5526</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>E0F0AA9DB074697ADA798CC23A6309D3</key>
-		<dict>
-			<key>fileRef</key>
-			<string>643F024A3C5CD2839E29AE3825F9A689</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>E1B645620013B28FA4DA3CB242A349AE</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>GCWebviewJSBridge.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E504FCF7BDCCE9866F0FBD27CE486F80</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>GCWebviewJSBridge.framework</string>
-			<key>path</key>
-			<string>GCWebviewJSBridge.framework</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>E6FF7EE6D8A3C8EA5EF8FD454D58A6DF</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>D41D8CD98F00B204E9800998ECF8427E</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>F0440F603DAFE1FA3BBA9AA72BF6D984</string>
-			<key>remoteInfo</key>
-			<string>GCWebviewJSBridge</string>
-		</dict>
-		<key>EF6AF3933724B5A80E76C0A833097C30</key>
-		<dict>
-			<key>fileRef</key>
-			<string>6E7E5AF37923BFA48D6994B9BFC6535F</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>EFDBA1C359158BF5F227DCA36A3E252B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>F2815F870142EB3DEFEF10BA1C2F9E15</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>F0440F603DAFE1FA3BBA9AA72BF6D984</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>6091A55DD7E5AE630D310DCFEEF0D4C0</string>
-			<key>buildPhases</key>
-			<array>
-				<string>4C36B2514BC331619768C52C7CC46A19</string>
-				<string>C34B5ACA45D11ED284629CC60CD3E552</string>
-				<string>B67763177626356D1596D87315B08567</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>GCWebviewJSBridge</string>
-			<key>productName</key>
-			<string>GCWebviewJSBridge</string>
-			<key>productReference</key>
-			<string>E504FCF7BDCCE9866F0FBD27CE486F80</string>
-			<key>productType</key>
-			<string>com.apple.product-type.framework</string>
-		</dict>
-		<key>F2815F870142EB3DEFEF10BA1C2F9E15</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>GCWebviewJSBridge-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F8DA3F9F654FF81F2A83F67A83AD84CA</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>E504FCF7BDCCE9866F0FBD27CE486F80</string>
-				<string>B6C1EC7EF3F15C155CCC02689859F766</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FBE763C316D323B7A381BDC1F4319E49</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>2F782000382F8B52BBCAA8BA00E110F3</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Targets Support Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-	</dict>
-	<key>rootObject</key>
-	<string>D41D8CD98F00B204E9800998ECF8427E</string>
-</dict>
-</plist>
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1AA58709FF4978725E6916385A8AAFA0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */; };
+		1ECFD0E832F309201AF90C179BEF7366 /* Pods-GCWebviewJSBridge_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D5DDA06DA24C7997D6BD3251BD91CB1C /* Pods-GCWebviewJSBridge_Example-dummy.m */; };
+		224997723F85FA1EFDDD3D8FC597DC7C /* GCWebviewJSBridge-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CE6D419B66207ED256B823C925C5DAC /* GCWebviewJSBridge-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2EEB3327CE5A7F684F0ADCA1CADC4935 /* GCWebviewJSBridge_JS.h in Headers */ = {isa = PBXBuildFile; fileRef = 77105A551B9DCF33D9FF8AA6C7C00C31 /* GCWebviewJSBridge_JS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		325FD5AEA36A8B1E813F54D8CC57A74A /* GCWebviewJSBridge_JS.m in Sources */ = {isa = PBXBuildFile; fileRef = 59F659C4ABEA476D596C3E975BE30177 /* GCWebviewJSBridge_JS.m */; };
+		3A33CED86A6DFBC1D9E4BA7959F6A15B /* GCWebviewJSBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 94B81195F4EBF02A173E8B192B5269D5 /* GCWebviewJSBridge.m */; };
+		44309CA828F0E3270A9C6AEF577269D8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */; };
+		4E36299738C7EB078B5107C9AF553C44 /* GCWebviewJSBridge.h in Headers */ = {isa = PBXBuildFile; fileRef = 301A90193797D904C2A3FAFDC4FA659B /* GCWebviewJSBridge.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		87629B4DB43A04D7822FADBF6278E49F /* GCWebviewJSBridgeBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BCA30E01D86AA7FBF18E2A7EC19E753 /* GCWebviewJSBridgeBase.m */; };
+		AAEF517B60B634E44B8DFDC060C6F5DB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E86668F20F252C440D1015B816BE59C5 /* UIKit.framework */; };
+		B2343FAF05A35A67C69F10110C3A4FF8 /* Pods-GCWebviewJSBridge_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C970CB81B79FB970EE7C5921E3B3D6E /* Pods-GCWebviewJSBridge_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E0F0AA9DB074697ADA798CC23A6309D3 /* GCWebviewJSBridgeBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 643F024A3C5CD2839E29AE3825F9A689 /* GCWebviewJSBridgeBase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EFDBA1C359158BF5F227DCA36A3E252B /* GCWebviewJSBridge-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F2815F870142EB3DEFEF10BA1C2F9E15 /* GCWebviewJSBridge-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6386EE9D8BA2EDD6F043089AD2B5E7DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F0440F603DAFE1FA3BBA9AA72BF6D984;
+			remoteInfo = GCWebviewJSBridge;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		012CEDCB2AAC18B8E61EFC5883569AA2 /* Pods-GCWebviewJSBridge_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GCWebviewJSBridge_Example-frameworks.sh"; sourceTree = "<group>"; };
+		0B25D42234DDC1947E045B2B25022AEE /* Pods-GCWebviewJSBridge_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GCWebviewJSBridge_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		0BCA30E01D86AA7FBF18E2A7EC19E753 /* GCWebviewJSBridgeBase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GCWebviewJSBridgeBase.m; sourceTree = "<group>"; };
+		1D59481A5F4721AB18658FEF3C4E7BC3 /* Pods-GCWebviewJSBridge_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-GCWebviewJSBridge_Example.modulemap"; sourceTree = "<group>"; };
+		301A90193797D904C2A3FAFDC4FA659B /* GCWebviewJSBridge.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GCWebviewJSBridge.h; sourceTree = "<group>"; };
+		395C72EAADE97619EC819FC1496368C4 /* Pods-GCWebviewJSBridge_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GCWebviewJSBridge_Example-resources.sh"; sourceTree = "<group>"; };
+		4C08FAC54638F88E602749D969BC2527 /* Pods-GCWebviewJSBridge_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GCWebviewJSBridge_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4CE6D419B66207ED256B823C925C5DAC /* GCWebviewJSBridge-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GCWebviewJSBridge-umbrella.h"; sourceTree = "<group>"; };
+		4E30528EBDA12AFA722ADCA7D6CD895D /* Pods-GCWebviewJSBridge_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GCWebviewJSBridge_Example.release.xcconfig"; sourceTree = "<group>"; };
+		59F659C4ABEA476D596C3E975BE30177 /* GCWebviewJSBridge_JS.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GCWebviewJSBridge_JS.m; sourceTree = "<group>"; };
+		643F024A3C5CD2839E29AE3825F9A689 /* GCWebviewJSBridgeBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GCWebviewJSBridgeBase.h; sourceTree = "<group>"; };
+		6B27BCC1724970ECE591D01F9991AE04 /* Pods-GCWebviewJSBridge_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GCWebviewJSBridge_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		77105A551B9DCF33D9FF8AA6C7C00C31 /* GCWebviewJSBridge_JS.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GCWebviewJSBridge_JS.h; sourceTree = "<group>"; };
+		7C970CB81B79FB970EE7C5921E3B3D6E /* Pods-GCWebviewJSBridge_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GCWebviewJSBridge_Example-umbrella.h"; sourceTree = "<group>"; };
+		8B4A82782AE8928F9DDFC38F8FA75512 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94B81195F4EBF02A173E8B192B5269D5 /* GCWebviewJSBridge.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GCWebviewJSBridge.m; sourceTree = "<group>"; };
+		A0BA48165F27D2A5AFFA9CA5C0A9B490 /* GCWebviewJSBridge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GCWebviewJSBridge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		A5CC7659031C3BB21E3F4F3E6A5C3DD2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB520494302A1491F93FA65431C0C047 /* GCWebviewJSBridge.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = GCWebviewJSBridge.modulemap; sourceTree = "<group>"; };
+		C94A9265F3825B0FED7DA5904CE474C1 /* Pods_GCWebviewJSBridge_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GCWebviewJSBridge_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE14E95294267246A154B5BFD32ED96C /* GCWebviewJSBridge-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GCWebviewJSBridge-prefix.pch"; sourceTree = "<group>"; };
+		D5DDA06DA24C7997D6BD3251BD91CB1C /* Pods-GCWebviewJSBridge_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GCWebviewJSBridge_Example-dummy.m"; sourceTree = "<group>"; };
+		E1B645620013B28FA4DA3CB242A349AE /* GCWebviewJSBridge.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GCWebviewJSBridge.xcconfig; sourceTree = "<group>"; };
+		E86668F20F252C440D1015B816BE59C5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		F2815F870142EB3DEFEF10BA1C2F9E15 /* GCWebviewJSBridge-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GCWebviewJSBridge-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C34B5ACA45D11ED284629CC60CD3E552 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44309CA828F0E3270A9C6AEF577269D8 /* Foundation.framework in Frameworks */,
+				AAEF517B60B634E44B8DFDC060C6F5DB /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECC64D4D769057798BFE9CE7FFBA8C12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AA58709FF4978725E6916385A8AAFA0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F2701B50B82A31CF4AC817A8550062C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BB520494302A1491F93FA65431C0C047 /* GCWebviewJSBridge.modulemap */,
+				E1B645620013B28FA4DA3CB242A349AE /* GCWebviewJSBridge.xcconfig */,
+				F2815F870142EB3DEFEF10BA1C2F9E15 /* GCWebviewJSBridge-dummy.m */,
+				CE14E95294267246A154B5BFD32ED96C /* GCWebviewJSBridge-prefix.pch */,
+				4CE6D419B66207ED256B823C925C5DAC /* GCWebviewJSBridge-umbrella.h */,
+				A5CC7659031C3BB21E3F4F3E6A5C3DD2 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/GCWebviewJSBridge";
+			sourceTree = "<group>";
+		};
+		2F782000382F8B52BBCAA8BA00E110F3 /* Pods-GCWebviewJSBridge_Example */ = {
+			isa = PBXGroup;
+			children = (
+				8B4A82782AE8928F9DDFC38F8FA75512 /* Info.plist */,
+				1D59481A5F4721AB18658FEF3C4E7BC3 /* Pods-GCWebviewJSBridge_Example.modulemap */,
+				4C08FAC54638F88E602749D969BC2527 /* Pods-GCWebviewJSBridge_Example-acknowledgements.markdown */,
+				6B27BCC1724970ECE591D01F9991AE04 /* Pods-GCWebviewJSBridge_Example-acknowledgements.plist */,
+				D5DDA06DA24C7997D6BD3251BD91CB1C /* Pods-GCWebviewJSBridge_Example-dummy.m */,
+				012CEDCB2AAC18B8E61EFC5883569AA2 /* Pods-GCWebviewJSBridge_Example-frameworks.sh */,
+				395C72EAADE97619EC819FC1496368C4 /* Pods-GCWebviewJSBridge_Example-resources.sh */,
+				7C970CB81B79FB970EE7C5921E3B3D6E /* Pods-GCWebviewJSBridge_Example-umbrella.h */,
+				0B25D42234DDC1947E045B2B25022AEE /* Pods-GCWebviewJSBridge_Example.debug.xcconfig */,
+				4E30528EBDA12AFA722ADCA7D6CD895D /* Pods-GCWebviewJSBridge_Example.release.xcconfig */,
+			);
+			name = "Pods-GCWebviewJSBridge_Example";
+			path = "Target Support Files/Pods-GCWebviewJSBridge_Example";
+			sourceTree = "<group>";
+		};
+		3DE2FDF7010EC2F29FF4103866C66AF9 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				301A90193797D904C2A3FAFDC4FA659B /* GCWebviewJSBridge.h */,
+				94B81195F4EBF02A173E8B192B5269D5 /* GCWebviewJSBridge.m */,
+				77105A551B9DCF33D9FF8AA6C7C00C31 /* GCWebviewJSBridge_JS.h */,
+				59F659C4ABEA476D596C3E975BE30177 /* GCWebviewJSBridge_JS.m */,
+				643F024A3C5CD2839E29AE3825F9A689 /* GCWebviewJSBridgeBase.h */,
+				0BCA30E01D86AA7FBF18E2A7EC19E753 /* GCWebviewJSBridgeBase.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F302CD3B306AF1ED96B9AF31FCDBC26C /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6586D2B45C986D84ACBEDE1439A0B53A /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8719B480BD78FF36AD045D588322FBF2 /* GCWebviewJSBridge */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7A6E48DE2ACBDA57AE5C1287238A7FDA /* GCWebviewJSBridge */ = {
+			isa = PBXGroup;
+			children = (
+				3DE2FDF7010EC2F29FF4103866C66AF9 /* Classes */,
+			);
+			path = GCWebviewJSBridge;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				6586D2B45C986D84ACBEDE1439A0B53A /* Development Pods */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				D11446780D0F69E33AF9665DC93EB444 /* Products */,
+				FBE763C316D323B7A381BDC1F4319E49 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8719B480BD78FF36AD045D588322FBF2 /* GCWebviewJSBridge */ = {
+			isa = PBXGroup;
+			children = (
+				7A6E48DE2ACBDA57AE5C1287238A7FDA /* GCWebviewJSBridge */,
+				1F2701B50B82A31CF4AC817A8550062C /* Support Files */,
+			);
+			name = GCWebviewJSBridge;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		D11446780D0F69E33AF9665DC93EB444 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A0BA48165F27D2A5AFFA9CA5C0A9B490 /* GCWebviewJSBridge.framework */,
+				C94A9265F3825B0FED7DA5904CE474C1 /* Pods_GCWebviewJSBridge_Example.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F302CD3B306AF1ED96B9AF31FCDBC26C /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */,
+				E86668F20F252C440D1015B816BE59C5 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		FBE763C316D323B7A381BDC1F4319E49 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2F782000382F8B52BBCAA8BA00E110F3 /* Pods-GCWebviewJSBridge_Example */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A58B766332C9A8CD0C9C83B12BF2C4C4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2343FAF05A35A67C69F10110C3A4FF8 /* Pods-GCWebviewJSBridge_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B67763177626356D1596D87315B08567 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				224997723F85FA1EFDDD3D8FC597DC7C /* GCWebviewJSBridge-umbrella.h in Headers */,
+				4E36299738C7EB078B5107C9AF553C44 /* GCWebviewJSBridge.h in Headers */,
+				2EEB3327CE5A7F684F0ADCA1CADC4935 /* GCWebviewJSBridge_JS.h in Headers */,
+				E0F0AA9DB074697ADA798CC23A6309D3 /* GCWebviewJSBridgeBase.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		B37E58495B1AE1BD3FDD403D12FEDF82 /* Pods-GCWebviewJSBridge_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF9EFB4EB6002CFA0BF6386905142407 /* Build configuration list for PBXNativeTarget "Pods-GCWebviewJSBridge_Example" */;
+			buildPhases = (
+				6D3E48FA0EF3F494213EC6C4BA4C4AC6 /* Sources */,
+				ECC64D4D769057798BFE9CE7FFBA8C12 /* Frameworks */,
+				A58B766332C9A8CD0C9C83B12BF2C4C4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF9C47D0FD5FF3C488CFA823485881C1 /* PBXTargetDependency */,
+			);
+			name = "Pods-GCWebviewJSBridge_Example";
+			productName = "Pods-GCWebviewJSBridge_Example";
+			productReference = C94A9265F3825B0FED7DA5904CE474C1 /* Pods_GCWebviewJSBridge_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F0440F603DAFE1FA3BBA9AA72BF6D984 /* GCWebviewJSBridge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6091A55DD7E5AE630D310DCFEEF0D4C0 /* Build configuration list for PBXNativeTarget "GCWebviewJSBridge" */;
+			buildPhases = (
+				4C36B2514BC331619768C52C7CC46A19 /* Sources */,
+				C34B5ACA45D11ED284629CC60CD3E552 /* Frameworks */,
+				B67763177626356D1596D87315B08567 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GCWebviewJSBridge;
+			productName = GCWebviewJSBridge;
+			productReference = A0BA48165F27D2A5AFFA9CA5C0A9B490 /* GCWebviewJSBridge.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = D11446780D0F69E33AF9665DC93EB444 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F0440F603DAFE1FA3BBA9AA72BF6D984 /* GCWebviewJSBridge */,
+				B37E58495B1AE1BD3FDD403D12FEDF82 /* Pods-GCWebviewJSBridge_Example */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C36B2514BC331619768C52C7CC46A19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFDBA1C359158BF5F227DCA36A3E252B /* GCWebviewJSBridge-dummy.m in Sources */,
+				3A33CED86A6DFBC1D9E4BA7959F6A15B /* GCWebviewJSBridge.m in Sources */,
+				325FD5AEA36A8B1E813F54D8CC57A74A /* GCWebviewJSBridge_JS.m in Sources */,
+				87629B4DB43A04D7822FADBF6278E49F /* GCWebviewJSBridgeBase.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D3E48FA0EF3F494213EC6C4BA4C4AC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1ECFD0E832F309201AF90C179BEF7366 /* Pods-GCWebviewJSBridge_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF9C47D0FD5FF3C488CFA823485881C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GCWebviewJSBridge;
+			target = F0440F603DAFE1FA3BBA9AA72BF6D984 /* GCWebviewJSBridge */;
+			targetProxy = 6386EE9D8BA2EDD6F043089AD2B5E7DE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1C84831616C546A4D9D15E2C5BB8554C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E30528EBDA12AFA722ADCA7D6CD895D /* Pods-GCWebviewJSBridge_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-GCWebviewJSBridge_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GCWebviewJSBridge_Example/Pods-GCWebviewJSBridge_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_GCWebviewJSBridge_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		59B691CF103633BFBE15C7BCEF567223 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1B645620013B28FA4DA3CB242A349AE /* GCWebviewJSBridge.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/GCWebviewJSBridge/GCWebviewJSBridge-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GCWebviewJSBridge/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GCWebviewJSBridge/GCWebviewJSBridge.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = GCWebviewJSBridge;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7D30930E389E8E5A46E7929B4CA1B255 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B25D42234DDC1947E045B2B25022AEE /* Pods-GCWebviewJSBridge_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-GCWebviewJSBridge_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GCWebviewJSBridge_Example/Pods-GCWebviewJSBridge_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_GCWebviewJSBridge_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CF1DA7EC90C50817ABF454E9321B88B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1B645620013B28FA4DA3CB242A349AE /* GCWebviewJSBridge.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/GCWebviewJSBridge/GCWebviewJSBridge-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GCWebviewJSBridge/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GCWebviewJSBridge/GCWebviewJSBridge.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = GCWebviewJSBridge;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */,
+				0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6091A55DD7E5AE630D310DCFEEF0D4C0 /* Build configuration list for PBXNativeTarget "GCWebviewJSBridge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF1DA7EC90C50817ABF454E9321B88B4 /* Debug */,
+				59B691CF103633BFBE15C7BCEF567223 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF9EFB4EB6002CFA0BF6386905142407 /* Build configuration list for PBXNativeTarget "Pods-GCWebviewJSBridge_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D30930E389E8E5A46E7929B4CA1B255 /* Debug */,
+				1C84831616C546A4D9D15E2C5BB8554C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

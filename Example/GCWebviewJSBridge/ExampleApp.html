@@ -21,12 +21,9 @@
             callback(GCWebviewAndroidJSBridge)
         } else {
             document.addEventListener(
-                                      'GCWebviewAndroidJSBridgeReady'
-                                      , function() {
-                                      callback(GCWebviewAndroidJSBridge)
-                                      },
-                                      false
-                                      );
+                                      'GCWebviewAndroidJSBridgeReady', function() {
+                                      callback(GCWebviewAndroidJSBridge)},
+                                      false);
         }
         
         //iOS

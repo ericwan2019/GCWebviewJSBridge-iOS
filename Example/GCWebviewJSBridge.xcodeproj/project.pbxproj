@@ -22,7 +22,7 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
-		8548BCD8B0A44B4BCF79FDDF /* Pods_GCWebviewJSBridge_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA1FA751D74591A9E7593D1F /* Pods_GCWebviewJSBridge_Example.framework */; };
+		7C33E9A27F857344E18E318D /* Pods_GCWebviewJSBridge_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B45108B12B12613BED79AF21 /* Pods_GCWebviewJSBridge_Example.framework */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
@@ -59,12 +59,12 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		7A4CC5261F118FABD7A9E7FF /* Pods-GCWebviewJSBridge_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GCWebviewJSBridge_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-GCWebviewJSBridge_Example/Pods-GCWebviewJSBridge_Example.release.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		DA1FA751D74591A9E7593D1F /* Pods_GCWebviewJSBridge_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GCWebviewJSBridge_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3EC3F4B95CEDAE11DA6588B /* Pods-GCWebviewJSBridge_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GCWebviewJSBridge_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GCWebviewJSBridge_Example/Pods-GCWebviewJSBridge_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		B45108B12B12613BED79AF21 /* Pods_GCWebviewJSBridge_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GCWebviewJSBridge_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7D6173EFA80B5374ED95B7A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		F6E657B442B42816CC6209BE /* GCWebviewJSBridge.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = GCWebviewJSBridge.podspec; path = ../GCWebviewJSBridge.podspec; sourceTree = "<group>"; };
-		FB3D0CE48DAAD2934DCAC975 /* Pods-GCWebviewJSBridge_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GCWebviewJSBridge_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GCWebviewJSBridge_Example/Pods-GCWebviewJSBridge_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		FB3D182A6D1A8DCB0660740F /* Pods-GCWebviewJSBridge_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GCWebviewJSBridge_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-GCWebviewJSBridge_Example/Pods-GCWebviewJSBridge_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,7 +75,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				8548BCD8B0A44B4BCF79FDDF /* Pods_GCWebviewJSBridge_Example.framework in Frameworks */,
+				7C33E9A27F857344E18E318D /* Pods_GCWebviewJSBridge_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,15 +92,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		572FEC8B6D79240489BAB9C2 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				FB3D0CE48DAAD2934DCAC975 /* Pods-GCWebviewJSBridge_Example.debug.xcconfig */,
-				7A4CC5261F118FABD7A9E7FF /* Pods-GCWebviewJSBridge_Example.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
@@ -109,7 +100,7 @@
 				6003F5B5195388D20070C39A /* Tests */,
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
-				572FEC8B6D79240489BAB9C2 /* Pods */,
+				6052BF18030AC42772A992CD /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -129,7 +120,7 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				DA1FA751D74591A9E7593D1F /* Pods_GCWebviewJSBridge_Example.framework */,
+				B45108B12B12613BED79AF21 /* Pods_GCWebviewJSBridge_Example.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -181,6 +172,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		6052BF18030AC42772A992CD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A3EC3F4B95CEDAE11DA6588B /* Pods-GCWebviewJSBridge_Example.debug.xcconfig */,
+				FB3D182A6D1A8DCB0660740F /* Pods-GCWebviewJSBridge_Example.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		60FF7A9C1954A5C5007DD14C /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
@@ -198,12 +198,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "GCWebviewJSBridge_Example" */;
 			buildPhases = (
-				9DA237F9578C4312DAEB72FF /* Check Pods Manifest.lock */,
+				8C75F8FF119CCE3C99D6C055 /* [CP] Check Pods Manifest.lock */,
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				F97E5B6DFCEB29C037082858 /* Embed Pods Frameworks */,
-				450CB0B670F8565B067C2665 /* Copy Pods Resources */,
+				F16F92FA7F82C99375E46A81 /* [CP] Embed Pods Frameworks */,
+				6E7ABAE4A06CF71436446F83 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -290,14 +290,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		450CB0B670F8565B067C2665 /* Copy Pods Resources */ = {
+		6E7ABAE4A06CF71436446F83 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -305,14 +305,14 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GCWebviewJSBridge_Example/Pods-GCWebviewJSBridge_Example-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		9DA237F9578C4312DAEB72FF /* Check Pods Manifest.lock */ = {
+		8C75F8FF119CCE3C99D6C055 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -320,14 +320,14 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		F97E5B6DFCEB29C037082858 /* Embed Pods Frameworks */ = {
+		F16F92FA7F82C99375E46A81 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Embed Pods Frameworks";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -461,7 +461,7 @@
 		};
 		6003F5C0195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FB3D0CE48DAAD2934DCAC975 /* Pods-GCWebviewJSBridge_Example.debug.xcconfig */;
+			baseConfigurationReference = A3EC3F4B95CEDAE11DA6588B /* Pods-GCWebviewJSBridge_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -476,7 +476,7 @@
 		};
 		6003F5C1195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7A4CC5261F118FABD7A9E7FF /* Pods-GCWebviewJSBridge_Example.release.xcconfig */;
+			baseConfigurationReference = FB3D182A6D1A8DCB0660740F /* Pods-GCWebviewJSBridge_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
