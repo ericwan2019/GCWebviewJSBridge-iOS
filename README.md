@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # GCWebviewJSBridge
 
 [![CI Status](http://img.shields.io/travis/万鸿恩/GCWebviewJSBridge.svg?style=flat)](https://travis-ci.org/万鸿恩/GCWebviewJSBridge)
@@ -27,3 +28,6 @@ pod "GCWebviewJSBridge"
 ## License
 
 GCWebviewJSBridge is available under the MIT license. See the LICENSE file for more info.
+=======
+# GCWebviewJSBridge-iOS
+>>>>>>> 19386f6e445a92145e4e1f24398f1bb791cb563c
