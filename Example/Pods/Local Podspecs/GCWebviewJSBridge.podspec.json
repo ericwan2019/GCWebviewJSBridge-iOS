@@ -1,0 +1,27 @@
+{
+  "name": "GCWebviewJSBridge",
+  "version": "0.1.0",
+  "summary": "JS and ObjC bridge.",
+  "description": "JS and ObjC bridge, callback each other",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/GCWebviewJSBridge",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "万鸿恩": "1396855545@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/GCWebviewJSBridge.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "source_files": "GCWebviewJSBridge/Classes/**/*",
+  "public_header_files": "Pod/Classes/GCWebviewJSBridge.h",
+  "frameworks": [
+    "UIKit",
+    "Foundation"
+  ]
+}

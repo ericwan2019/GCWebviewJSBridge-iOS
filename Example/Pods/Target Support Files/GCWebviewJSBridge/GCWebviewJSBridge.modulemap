@@ -1,0 +1,6 @@
+framework module GCWebviewJSBridge {
+  umbrella header "GCWebviewJSBridge-umbrella.h"
+
+  export *
+  module * { export * }
+}

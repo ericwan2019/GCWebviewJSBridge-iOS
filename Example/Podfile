@@ -3,9 +3,4 @@ use_frameworks!
 target 'GCWebviewJSBridge_Example' do
   pod 'GCWebviewJSBridge', :path => '../'
 
-  target 'GCWebviewJSBridge_Tests' do
-    inherit! :search_paths
-
-    
-  end
 end

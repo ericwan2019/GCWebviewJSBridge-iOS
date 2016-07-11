@@ -1,0 +1,14 @@
+PODS:
+  - GCWebviewJSBridge (0.1.0)
+
+DEPENDENCIES:
+  - GCWebviewJSBridge (from `../`)
+
+EXTERNAL SOURCES:
+  GCWebviewJSBridge:
+    :path: ../
+
+SPEC CHECKSUMS:
+  GCWebviewJSBridge: 077dddeaabd387c048ca73e2d4472d5051c1d159
+
+COCOAPODS: 0.39.0
